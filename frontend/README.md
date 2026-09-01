@@ -1,16 +1,56 @@
-# React + Vite
+# AI Text Summarizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An AI-powered web application that transforms long text into clear, concise, and meaningful summaries.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- AI-powered text summarization
+- Short, Medium and Detailed summary modes
+- Upload TXT, PDF and DOCX files
+- Copy generated summaries
+- Download summaries as PDF
+- Summary history
+- Dark and Light mode
+- Word count statistics
+- Compression percentage
+- Responsive and user-friendly interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React.js
+- Vite
+- JavaScript
+- CSS
 
-## Expanding the Oxlint configuration
+### Backend
+- FastAPI
+- Python
+- Hugging Face
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Other Tools
+- jsPDF
+- Git
+- GitHub
+- LocalStorage
+
+## Project Structure
+
+```text
+AI-Text-Summarizer/
+│
+├── backend/
+│   ├── main.py
+│   ├── summarizer.py
+│   ├── test.py
+│   └── .gitignore
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── index.css
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
