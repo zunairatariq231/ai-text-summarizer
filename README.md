@@ -1,45 +1,51 @@
 # 🤖 AI Text Summarizer
 
-An AI-powered web application that summarizes long text and uploaded documents into concise, easy-to-understand summaries.
+An AI-powered web application that transforms long text into clear, concise, and meaningful summaries.
 
 ## 🚀 Features
 
-- ✨ AI-powered text summarization
-- 📝 Summarize text directly from the web interface
-- 📄 Upload TXT, PDF, and DOCX files
-- 🎯 Choose summary length:
-  - Short
-  - Medium
-  - Detailed
-- 🌙 Dark mode
-- 📋 Copy generated summaries
-- 📥 Download summaries as PDF
-- 🕘 Summary history
-- 📊 Text and summary statistics
-- ⚡ Fast and user-friendly interface
+- AI-powered text summarization
+- Short, Medium and Detailed summary modes
+- Upload TXT, PDF and DOCX files
+- Copy generated summaries
+- Download summaries as PDF
+- Summary history
+- Dark and Light mode
+- Word count statistics
+- Compression percentage
+- Responsive and user-friendly interface
 
 ## 🛠️ Technologies Used
 
 ### Frontend
+
 - React.js
 - Vite
 - JavaScript
-- HTML5
-- CSS3
+- CSS
 
 ### Backend
-- Python
+
 - FastAPI
+- Python
 - Uvicorn
 - OpenAI API
-- Hugging Face
 
 ### Document Processing
+
 - PyPDF
 - python-docx
 
+### Other Tools
+
+- jsPDF
+- Git
+- GitHub
+- LocalStorage
+
 ## 📁 Project Structure
 
+```text
 AI-Text-Summarizer/
 │
 ├── backend/
@@ -47,14 +53,15 @@ AI-Text-Summarizer/
 │   ├── summarizer.py
 │   ├── test.py
 │   ├── requirements.txt
-│   ├── .env
-│   └── venv/
+│   └── .gitignore
 │
 ├── frontend/
 │   ├── src/
-│   ├── public/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── index.css
 │   ├── package.json
-│   └── README.md
+│   └── vite.config.js
 │
 ├── README.md
 └── .gitignore

@@ -1,8 +1,8 @@
-# AI Text Summarizer
+# 🤖 AI Text Summarizer
 
 An AI-powered web application that transforms long text into clear, concise, and meaningful summaries.
 
-## Features
+## 🚀 Features
 
 - AI-powered text summarization
 - Short, Medium and Detailed summary modes
@@ -15,26 +15,35 @@ An AI-powered web application that transforms long text into clear, concise, and
 - Compression percentage
 - Responsive and user-friendly interface
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 ### Frontend
+
 - React.js
 - Vite
 - JavaScript
 - CSS
 
 ### Backend
+
 - FastAPI
 - Python
-- Hugging Face
+- Uvicorn
+- OpenAI API
+
+### Document Processing
+
+- PyPDF
+- python-docx
 
 ### Other Tools
+
 - jsPDF
 - Git
 - GitHub
 - LocalStorage
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 AI-Text-Summarizer/
@@ -43,6 +52,7 @@ AI-Text-Summarizer/
 │   ├── main.py
 │   ├── summarizer.py
 │   ├── test.py
+│   ├── requirements.txt
 │   └── .gitignore
 │
 ├── frontend/
@@ -53,4 +63,5 @@ AI-Text-Summarizer/
 │   ├── package.json
 │   └── vite.config.js
 │
-└── README.md
+├── README.md
+└── .gitignore
